@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab07-2</title>
+</head>
+
+<body>
+    <h2 align="center">Соціальне опитування про здоровий спосіб життя</h2>
+    <form action="" id="myForm">
+        <figure>
+            <label for="name">Ваше ім'я</label>
+            <input type="text" name="yourName" placeholder="name">
+            <label for="name">Ваше прізвище</label>
+            <input type="text" name="yourSecondName" placeholder="secondName">
+            <label for="passw">Пароль</label>
+            <input type="password" name="passw">
+        </figure>
+
+        <figure>
+            <figcaption>Ви займаєтесь спортом?</figcaption>
+            <input type="radio" name="isVegan" id="yes">
+            <label for="yes">Так</label>
+            <input type="radio" name="isVegan" id="no">
+            <label for="no">Ні</label>
+        </figure>
+
+        <figure>
+            <figcaption>Оберіть скільки днів на тиждень ви займаєтесь</figcaption>
+            <select name="curs" id="" size="1">
+                <option value="one" selected>1</option>
+                <option value="two" selected>2</option>
+                <option value="three" selected>3</option>
+                <option value="four" selected>4</option>
+                <option value="five" selected>5</option>
+                <option value="six" selected>6</option>
+                <option value="six" selected>7</option>
+            </select>
+        </figure>
+
+        <figure>
+            <figcaption>Який би ви хотіли провести вечір?</figcaption>
+            <div>
+                <input type="checkbox" name="dish" id="pizza" value="pizza">
+                <label for="pizza">вдома з пляшкою горілки</label>
+            </div>
+            <div>
+                <input type="checkbox" name="dish" id="cake" value="cake">
+                <label for="cake">з дітьми у парку</label>
+            </div>
+            <div>
+                <input type="checkbox" name="dish" id="lasagna" value="lasagna">
+                <label for="lasagna">пробіжка</label>
+            </div>
+            <div>
+                <input type="checkbox" name="dish" id="ceasar" value="ceasar">
+                <label for="ceasar">подивитись телевізор</label>
+            </div>
+        </figure>
+        <figure>
+            <figcaption>Розкажіть про свійулюблений спорт!</figcaption>
+            <textarea name="about" id="" cols="60" rows="6" wrap="off"></textarea>
+            <p><input type="submit" value="Відіслати дані">
+                <input type="reset" name="delete" value="Очистити форму">
+                <input type="file" name="dish" size="50" accept="припустимий тип файлу">
+        </figure>
+    </form>
+
+</body>
+
+</html>
